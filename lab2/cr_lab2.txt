@@ -1,0 +1,22 @@
+1-  sudo apt install git gitk git-email 
+2-  git config --global user.name "Kamal"
+    git config --global user.email "Kamal.lemsyeh@etu.sorbonne-universite.com"	
+    git config --global user.name 
+    git config --global user.email
+3-  mkdir MU5SP05_part1
+    mkdir lab2
+    cd lab2/
+    gedit lemsyeh.txt
+4-  git init
+5-  git status 
+6-  git add lab2/
+    git status
+7-  git commit -m "Unorthodox"
+8-  git remote add origin https://github.com/Kamalemsyeh/MU5SP05_part1.git
+9-  git pull
+10- git clone https://github.com/Kamalemsyeh/MU5SP05_part1
+11- git add lab2/cr_lab2.txt
+    git push
+12- git config credential.helper store
+
+
